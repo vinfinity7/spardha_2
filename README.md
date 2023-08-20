@@ -7,5 +7,5 @@
 
 <br/>
 <br/>
-### the dataset of teams is same for all the categories rn . CSS responsiveness is not taken care of just at one point . 
+# the dataset of teams is same for all the categories rn . CSS responsiveness is not taken care of just at one point . 
 

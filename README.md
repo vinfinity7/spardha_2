@@ -9,6 +9,6 @@
 <br/>
 <h1>
   
-the dataset of teams is same for all the categories rn . CSS responsiveness is not taken care of just at one point . 
+the dataset of teams is same for all the categories rn .spaces for icon of each team is also left blank . CSS responsiveness is not taken care of just at one point . 
 </h1>
 

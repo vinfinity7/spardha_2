@@ -3,20 +3,20 @@ import "../DashBoard.css";
 
 const games = [
   {
-  team1:"IIT BHU",
-  team2:"IIT K",
-  time:"5:00 pm",
-  icon1:"",
-  icon2:"",
-  loc:"at RAJPUTANA",
-},
-  {
   team1:"IIT G",
   team2:"IIT B",
   time:"7:00 pm",
   icon1:"",
   icon2:"",
   loc:"at ADV",
+},
+  {
+  team1:"IIT BHU",
+  team2:"IIT K",
+  time:"5:00 pm",
+  icon1:"",
+  icon2:"",
+  loc:"at RAJPUTANA",
 },
   {
   team1:"IIT D",
@@ -35,6 +35,7 @@ const Users = () => {
     <div className="iknow">
 
     <div className="iknow2">
+    <h1 style={{display:'flex',justifyContent:'center'}}>Football Matches</h1>
 
     {games.map((games,index) => {
       return (

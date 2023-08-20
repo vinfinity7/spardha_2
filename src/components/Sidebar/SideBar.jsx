@@ -1,7 +1,7 @@
 import React from "react";
 import "../../App.css"
 import { NavLink } from "react-router-dom";
-import { FaBars, FaHome, FaFootballBall, FaFutbol, FaTableTennis, FaVolleyballBall, FaBasketballBall ,  } from "react-icons/fa";
+import { FaBars, FaHome, FaFootballBall, FaFutbol, FaTableTennis, FaVolleyballBall, FaBasketballBall, FaHatCowboy ,  } from "react-icons/fa";
 import { useState } from "react";
 
 const routes = [
@@ -38,7 +38,7 @@ const routes = [
   {
     path: "/cricket",
     name: "Cricket",
-    icon: <FaBasketballBall />,
+    icon: <FaHatCowboy />,
   },
 ];
 
@@ -50,7 +50,7 @@ const SideBar = ({ children }) => {
       <div className="main-container">
         <div
 
-           style={{width: isOpen ? "20vw" : "5vw", }} 
+           style={{width: isOpen ? "10vw" : "5vw", }} 
           className={`sidebar `}
         >
           <div className="top_section">

@@ -35,7 +35,7 @@ const FileManager = () => {
     <div className="iknow">
 {/* <SideBar/> */}
     <div className="iknow2">
-
+    <h1 style={{display:'flex',justifyContent:'center'}}>VolleyBall Matches</h1>
     {games.map((games,index) => {
       return (
         

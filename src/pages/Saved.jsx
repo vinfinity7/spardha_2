@@ -10,6 +10,14 @@ const games = [
   icon2:"",
   loc:"at RAJPUTANA",
 },
+{
+team1:"IIT D",
+team2:"IIT M",
+time:"11:00 am",
+icon1:"",
+icon2:"",
+loc:"at GYMKHANA",
+},
   {
   team1:"IIT G",
   team2:"IIT B",
@@ -17,14 +25,6 @@ const games = [
   icon1:"",
   icon2:"",
   loc:"at ADV",
-},
-  {
-  team1:"IIT D",
-  team2:"IIT M",
-  time:"11:00 am",
-  icon1:"",
-  icon2:"",
-  loc:"at GYMKHANA",
 },
 
 ]
@@ -35,7 +35,7 @@ const Saved = () => {
     <div className="iknow">
 {/* <SideBar/> */}
     <div className="iknow2">
-
+    <h1 style={{display:'flex',justifyContent:'center'}}>Cricket Matches</h1>
     {games.map((games,index) => {
       return (
         

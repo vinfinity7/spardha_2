@@ -2,7 +2,7 @@ import React from "react";
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import { Link } from 'react-router-dom';
-import { FaFootballBall, FaFutbol, FaTableTennis, FaVolleyballBall, FaBasketballBall ,  } from "react-icons/fa";
+import { FaFootballBall, FaFutbol, FaTableTennis, FaVolleyballBall, FaBasketballBall, FaHatCowboy ,  } from "react-icons/fa";
 import "../DashBoard.css";
 
 const sport = [
@@ -40,7 +40,7 @@ const sport = [
     path: "/cricket",
     imgpath:"https://img.freepik.com/free-vector/ipl-cricket-illustration-hand-drawn-style_23-2149201607.jpg?w=740&t=st=1692529893~exp=1692530493~hmac=98a45d963d74906ec7a4f7fb3284a294d8d5d91384874f99338ce7adc2e2f2dd",
     name: "Cricket",
-    icon: <FaBasketballBall />,
+    icon: <FaHatCowboy />,
   },
 ];
 

@@ -33,10 +33,7 @@ const games = [
 const Setting = () => {
   return (
     <>
-  
-
-   
-
+ 
     {games.map((games,index) => {
       return (
         
